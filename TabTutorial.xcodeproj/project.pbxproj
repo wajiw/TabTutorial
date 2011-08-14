@@ -18,6 +18,9 @@
 		2F2154F013F218CE009C2A4E /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2154EF13F218CE009C2A4E /* SecondViewController.m */; };
 		2F2154F313F218CE009C2A4E /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F2154F113F218CE009C2A4E /* FirstView.xib */; };
 		2F2154F613F218CE009C2A4E /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F2154F413F218CE009C2A4E /* SecondView.xib */; };
+		2F2154FF13F219A9009C2A4E /* ViewThreeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2154FD13F219A9009C2A4E /* ViewThreeVC.m */; };
+		2F21550013F219A9009C2A4E /* ViewThreeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F2154FE13F219A9009C2A4E /* ViewThreeVC.xib */; };
+		2F21550213F21B7D009C2A4E /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2F21550113F21B7D009C2A4E /* arrow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,19 +28,23 @@
 		2F2154D613F218CE009C2A4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2F2154D813F218CE009C2A4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2F2154DA13F218CE009C2A4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		2F2154DE13F218CE009C2A4E /* TabTutorial-Info.plist */ = {isa = PBXFileReference; path = "TabTutorial-Info.plist"; sourceTree = "<group>"; };
+		2F2154DE13F218CE009C2A4E /* TabTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabTutorial-Info.plist"; sourceTree = "<group>"; };
 		2F2154E013F218CE009C2A4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		2F2154E213F218CE009C2A4E /* TabTutorial-Prefix.pch */ = {isa = PBXFileReference; path = "TabTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		2F2154E213F218CE009C2A4E /* TabTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TabTutorial-Prefix.pch"; sourceTree = "<group>"; };
 		2F2154E313F218CE009C2A4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2F2154E513F218CE009C2A4E /* TabTutorialAppDelegate.h */ = {isa = PBXFileReference; path = TabTutorialAppDelegate.h; sourceTree = "<group>"; };
+		2F2154E513F218CE009C2A4E /* TabTutorialAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabTutorialAppDelegate.h; sourceTree = "<group>"; };
 		2F2154E613F218CE009C2A4E /* TabTutorialAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabTutorialAppDelegate.m; sourceTree = "<group>"; };
 		2F2154E913F218CE009C2A4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		2F2154EB13F218CE009C2A4E /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		2F2154EB13F218CE009C2A4E /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		2F2154EC13F218CE009C2A4E /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		2F2154EE13F218CE009C2A4E /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		2F2154EE13F218CE009C2A4E /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		2F2154EF13F218CE009C2A4E /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		2F2154F213F218CE009C2A4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
 		2F2154F513F218CE009C2A4E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		2F2154FC13F219A9009C2A4E /* ViewThreeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewThreeVC.h; sourceTree = "<group>"; };
+		2F2154FD13F219A9009C2A4E /* ViewThreeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewThreeVC.m; sourceTree = "<group>"; };
+		2F2154FE13F219A9009C2A4E /* ViewThreeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewThreeVC.xib; sourceTree = "<group>"; };
+		2F21550113F21B7D009C2A4E /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = ../../../../Desktop/arrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +91,7 @@
 		2F2154DC13F218CE009C2A4E /* TabTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				2F21550113F21B7D009C2A4E /* arrow.png */,
 				2F2154E513F218CE009C2A4E /* TabTutorialAppDelegate.h */,
 				2F2154E613F218CE009C2A4E /* TabTutorialAppDelegate.m */,
 				2F2154E813F218CE009C2A4E /* MainWindow.xib */,
@@ -94,6 +102,9 @@
 				2F2154F113F218CE009C2A4E /* FirstView.xib */,
 				2F2154F413F218CE009C2A4E /* SecondView.xib */,
 				2F2154DD13F218CE009C2A4E /* Supporting Files */,
+				2F2154FC13F219A9009C2A4E /* ViewThreeVC.h */,
+				2F2154FD13F219A9009C2A4E /* ViewThreeVC.m */,
+				2F2154FE13F219A9009C2A4E /* ViewThreeVC.xib */,
 			);
 			path = TabTutorial;
 			sourceTree = "<group>";
@@ -160,6 +171,8 @@
 				2F2154EA13F218CE009C2A4E /* MainWindow.xib in Resources */,
 				2F2154F313F218CE009C2A4E /* FirstView.xib in Resources */,
 				2F2154F613F218CE009C2A4E /* SecondView.xib in Resources */,
+				2F21550013F219A9009C2A4E /* ViewThreeVC.xib in Resources */,
+				2F21550213F21B7D009C2A4E /* arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +187,7 @@
 				2F2154E713F218CE009C2A4E /* TabTutorialAppDelegate.m in Sources */,
 				2F2154ED13F218CE009C2A4E /* FirstViewController.m in Sources */,
 				2F2154F013F218CE009C2A4E /* SecondViewController.m in Sources */,
+				2F2154FF13F219A9009C2A4E /* ViewThreeVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
